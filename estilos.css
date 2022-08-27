@@ -1,0 +1,69 @@
+/** Variables */
+
+
+:root {
+     --textColor: #1d1d1f;
+     --textColor-light: #86868b;
+     --colorEnlaces: #06c;
+     --colorBackground: #fafafa;
+}
+
+
+
+/*? Estilos Generales */
+
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+     background: var(--colorBackground);
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+a {
+     text-decoration: none;
+}
+
+h1, h2, h3 {
+     line-height: 1.2;
+     font-weight: 600;
+     color: var(--textColor);
+     text-align: center;
+}
+
+h1 {
+     font-size: 48px;
+     margin-top: 10px;
+}
+
+h2 {
+     font-size: 24px;
+}
+
+h3 {
+     font-size: 21px;
+     font-weight: 400;
+     color: var(--textColor-light);
+     margin-top: .5em;
+}
+
+img {
+     width: 100%;
+}
+
+section {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+}
+
+/** MENU DE NAVEGACION */
+
