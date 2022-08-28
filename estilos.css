@@ -11,6 +11,18 @@
 }
 
 
+/*? ScrollBar */
+
+
+body::-webkit-scrollbar {
+     width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+     background: var(--textColor);
+}
+
+
 
 /*? Estilos Generales */
 
@@ -266,9 +278,9 @@ header .img-container {
 /** AirPods */
 
 
-.airpods {
-     /* height: auto; */
-}
+/* .airpods {
+     height: auto; 
+} */
 
 
 /**  MUSIC */
@@ -282,7 +294,7 @@ header .img-container {
      background: #000;
 }
 
-.musictv .text-container .text {
+.musictv .text {
      height: 50%;
      width: 50%;
      padding: 60px 0 0 0;
@@ -290,15 +302,16 @@ header .img-container {
      flex-direction: column;
 }
 
-.musictv .text-container .text .icon {
-     width: 100px;
-     height: 40px;
-}
-
 .musictv .imagen {
      height: 100%;
      align-items: flex-end;
 }
+
+.musictv .text-container .icon {
+     width: 100px;
+     height: 40px;
+}
+
 
 .musictv .text-container h3 {
      color: #fff;
@@ -319,3 +332,57 @@ header .img-container {
 .musictv .ct2 h3 {
      color: var(--textColor);
 }
+
+
+/** iMac */
+
+
+.imac {
+     background: #fff;
+     padding: 50px 0;
+}
+
+.imac h1 {
+     font-size: 56px;
+}
+
+.imac h2 {
+     font-size: 28px;
+     font-weight: 400;
+}
+
+.imac h3 {
+     color: var(--textColor-light);
+     letter-spacing: 0.5px;
+     font-size: 18px;
+}
+
+.imac img {
+     width: 50%;
+}
+
+
+/** FOOTER */
+
+
+footer {
+     height: 44px;
+     background: var(--colorBackground-nav);
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+footer img {
+     width: 16px;
+     transition: all .5s;
+     opacity: .2;
+}
+
+footer img:hover {
+     opacity: 1;
+}
+
+
+
